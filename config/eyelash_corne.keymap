@@ -78,10 +78,10 @@
 
         media {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &kp LC(W)         &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans            &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &kp K_PLAY_PAUSE  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &kp LC(LA(PERIOD))  &kp LA(LEFT)      &trans     &kp LC(LS(J))  &kp LA(RIGHT)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans              &kp LC(LS(TAB))   &kp LC(W)  &kp LC(T)      &kp LC(TAB)    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans              &trans            &trans     &trans         &trans         &trans
+                        &trans  &trans  &trans                                    &trans              &kp K_PLAY_PAUSE  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOLUME_DOWN>;
